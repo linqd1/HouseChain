@@ -1,0 +1,74 @@
+{
+    "company_name": "Startup C",
+    "u_id": "43535897840559433457",
+    "describe": "Our company <a> Startup C </a> is a end-to-end solution combining autonomous driving with built-in computer vision, artificial intelligence and data analytics software for automated wind turbine inspections.",
+    "management_forms": "retained",
+    "uniform_social_credit_code": "91310300356591456R",
+    "identification_number_of_the_taxpayer": "91310300356591567R",
+    "registered_number": "44030110354568",
+    "organization_code": "63245658-8",
+    "insured_number": "657",
+    "address": "Shanghai hongkou sichuangbei Road, 568",
+    "establish_time": "2016",
+    "registered_capital": "1000m yuan",
+    "registered_site": "shanghai",
+    "main_business": "science reserch and technologhy service",
+    "staffs_num": "64",
+    "first_level_index": {
+        "team_background_A1": {
+            "educational_level_A11": {
+                "year_2015": "B",
+                "year_2016": "BB",
+                "year_2017": "BBB"
+            },
+            "Career_Portfolio_A12": {
+                "year_2015": "A",
+                "year_2016": "AA",
+                "year_2017": "AA"
+            }
+        },
+        "profitability_A2": {
+            "RoA_A21": {
+                "year_2015": "-36%",
+                "year_2016": "-26%",
+                "year_2017": "-30%"
+             },
+            "RoI_A22": {
+                "year_2015": "-16%",
+                "year_2016": "-26%",
+                "year_2017": "-37%"
+            }
+        },
+        "operation_capacity_A31": {
+            "accounts_receivable_turnover_rate_A31":{
+                "year_2015": "18%",
+                "year_2016": "15%",
+                "year_2017": "15%"
+            },
+            "total_capital_A32":{
+                "year_2015": "16%",
+                "year_2016": "19%",
+                "year_2017": "20%"
+            }
+        },
+        "growth_ability_A4": {
+            "MBRG_A41":{
+                "year_2015": "7.58%",
+                "year_2016": "13.65%",
+                "year_2017": "15.38%"
+            },
+            "total_assets_growth_rate_A42":{
+                "year_2015": "-13.76%",
+                "year_2016": "-15.17%",
+                "year_2017": " 16.38%"
+            }
+        },
+        "RD_level_A5": {
+            "production_iteration_speed_A51":{
+                "year_2015": "B",
+                "year_2016": "A",
+                "year_2017": "BBB"
+            }
+        }
+    }
+}

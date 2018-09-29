@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>  
+<script type="text/javascript" src="js/Copse_400.font.js"></script>
+<script type="text/javascript" src="js/imagepreloader.js"></script>
+<script type="text/javascript">
+	preloadImages([
+	'images/menu1_active.gif',
+	'images/menu2_active.gif',
+	'images/menu3_active.gif',
+	'images/menu4_active.gif',
+	'images/menu5_active.gif']);
+</script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
+	<script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body id="page2">
+<div class="body1">
+	<div class="body2">
+		<div class="main">
+<!-- header -->
+			
+			</div>
+		</div>
+	</div>
+<!-- / header -->
+<!-- content -->
+	<div class="body7">
+        <div class="main">
+            <section id="content">
+                <div class="wrapper">
+                    <article class="col2">
+                     <div class="x_content">
+                                <br />
+                                <form id="nodeform" class="form-horizontal form-label-left">
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">房屋类型</label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <select id="houseType" class="form-control col-md-6 col-sm-6 col-xs-12">
+                                                <option>出租</option>
+                                                <option>出售</option>
+                                                <option>商铺</option>
+                                                <option>写字楼</option>
+                                                <option></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">房屋名称
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="companyName" class="form-control col-md-7 col-xs-12" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">房屋信用
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="creditID" class="form-control col-md-7 col-xs-12" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">房屋地址
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="address" class="form-control col-md-7 col-xs-12" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">联系电话
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="phone" class="form-control col-md-7 col-xs-12" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">联系人
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="contacter" class="form-control col-md-7 col-xs-12" type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12">上传附件</label>
+                                        <input id="file" class="col-md-7 col-xs-12" type="file" name="file"/>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                                            <button id="upload" class="btn btn-info" type="button" onclick="fileUpload()">上传附件</button>
+                                            <button type="submit" class="btn btn-success" onclick="summit()">提交</button>
+                                            <button class="btn btn-primary" type="reset">重置</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                </div>
+                
+            </section>
+        </div>
+    </div>
+<!-- / content -->
+<!-- footer -->
+	<div class="body8">
+	<div class="body9">
+		<div class="main">
+			<footer>
+			</footer>
+		</div>
+<!-- / footer -->
+	</div>
+	</div>
+<script type="text/javascript" src="js/get-json-data-upload.js"></script>
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

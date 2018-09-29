@@ -1,0 +1,74 @@
+{
+    "company_name": "Startup E",
+    "u_id": "43535897840559434321",
+    "describe": "Our company <a> Startup D </a> is a E-commerce company.",
+    "management_forms": "retained",
+    "uniform_social_credit_code": "91310300356591788R",
+    "identification_number_of_the_taxpayer": "91310300356591788R",
+    "registered_number": "44030110356780",
+    "organization_code": "63245778-7",
+    "insured_number": "607",
+    "address": "Shanghai GUMEI  Road, 57",
+    "establish_time": "2016",
+    "registered_capital": "1200m yuan",
+    "registered_site": "shanghai",
+    "main_business": "E-commerce service",
+    "staffs_num": "69",
+    "first_level_index": {
+        "team_background_A1": {
+            "educational_level_A11": {
+                "year_2015": "B",
+                "year_2016": "AA",
+                "year_2017": "BBB"
+            },
+            "Career_Portfolio_A12": {
+                "year_2015": "A",
+                "year_2016": "BB",
+                "year_2017": "BB"
+            }
+        },
+        "profitability_A2": {
+            "RoA_A21": {
+                "year_2015": "-36%",
+                "year_2016": "-20%",
+                "year_2017": "-34%"
+             },
+            "RoI_A22": {
+                "year_2015": "-16%",
+                "year_2016": "-29%",
+                "year_2017": "-36%"
+            }
+        },
+        "operation_capacity_A31": {
+            "accounts_receivable_turnover_rate_A31":{
+                "year_2015": "12%",
+                "year_2016": "35%",
+                "year_2017": "12%"
+            },
+            "total_capital_A32":{
+                "year_2015": "16%",
+                "year_2016": "29%",
+                "year_2017": "40%"
+            }
+        },
+        "growth_ability_A4": {
+            "MBRG_A41":{
+                "year_2015": "10.57%",
+                "year_2016": "13.68%",
+                "year_2017": "15.58%"
+            },
+            "total_assets_growth_rate_A42":{
+                "year_2015": "-13.00%",
+                "year_2016": "-18.37%",
+                "year_2017": " 17.58%"
+            }
+        },
+        "RD_level_A5": {
+            "production_iteration_speed_A51":{
+                "year_2015": "A",
+                "year_2016": "B",
+                "year_2017": "AAA"
+            }
+        }
+    }
+}

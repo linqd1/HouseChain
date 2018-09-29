@@ -1,0 +1,34 @@
+import json
+data="company_name"
+with open("/Users/nobody0702/Desktop/hackthon2018/credit_model/data/companyA.json") as f:
+    data = json.load(f)
+
+w_init=[0.0440,0.1320,0.0177,0.0177,0.0155,0.0077,0.0497,0.0497,0.0315]
+w_total=sum(w_init)
+w=[x/w_total for x in w_init]
+
+
+score=[]
+
+define score(x):
+  if x=='AAA':
+    return 100
+  if x=='AA':
+    return 85
+  if x=='A':
+    return 75
+  if x=='BBB':
+    return 65
+  if x=='BB':
+    return 50
+  if x=='B':
+    return 35
+  if x=='CCC':
+    return 25
+  if x=='CC':
+    return 15
+  return (x.str.trip("%").astype(float)+100)/200
+    
+
+print score(data['first_level_index']['team_background_A1']['educational_level_A11']['year_2015'])
+
